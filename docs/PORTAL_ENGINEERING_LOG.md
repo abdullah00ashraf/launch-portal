@@ -84,3 +84,8 @@ This document tracks verified architectural iterations, feature additions, and p
 - **Status**: Verified & Integrated into `main`
 - **Timestamp**: `2025-07-14T20:22:56+0530`
 
+### [2025-08-09 16:49 IST] - `test(e2e): add Playwright specs for access key submission user journey`
+- **Component**: Next.js App Router & Launch Gateway
+- **Status**: Verified & Integrated into `main`
+- **Timestamp**: `2025-08-09T16:49:37+0530`
+
