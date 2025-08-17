@@ -94,3 +94,8 @@ This document tracks verified architectural iterations, feature additions, and p
 - **Status**: Verified & Integrated into `main`
 - **Timestamp**: `2025-08-12T11:02:40+0530`
 
+### [2025-08-17 20:42 IST] - `fix(modal): prevent background scroll bleed when connect modal is active`
+- **Component**: Next.js App Router & Launch Gateway
+- **Status**: Verified & Integrated into `main`
+- **Timestamp**: `2025-08-17T20:42:06+0530`
+
