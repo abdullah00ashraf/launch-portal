@@ -174,3 +174,8 @@ This document tracks verified architectural iterations, feature additions, and p
 - **Status**: Verified & Integrated into `main`
 - **Timestamp**: `2025-12-26T20:26:23+0530`
 
+### [2026-01-04 20:36 IST] - `perf(ssr): cache pillar layout static components with ISR revalidation`
+- **Component**: Next.js App Router & Launch Gateway
+- **Status**: Verified & Integrated into `main`
+- **Timestamp**: `2026-01-04T20:36:46+0530`
+
