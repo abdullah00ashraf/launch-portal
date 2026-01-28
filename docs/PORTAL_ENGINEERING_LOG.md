@@ -194,3 +194,8 @@ This document tracks verified architectural iterations, feature additions, and p
 - **Status**: Verified & Integrated into `main`
 - **Timestamp**: `2026-01-17T18:09:59+0530`
 
+### [2026-01-28 20:26 IST] - `style(glass): refine border opacity gradients on dark mode cards`
+- **Component**: Next.js App Router & Launch Gateway
+- **Status**: Verified & Integrated into `main`
+- **Timestamp**: `2026-01-28T20:26:50+0530`
+
