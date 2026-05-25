@@ -269,3 +269,8 @@ This document tracks verified architectural iterations, feature additions, and p
 - **Status**: Verified & Integrated into `main`
 - **Timestamp**: `2026-05-23T15:36:46+0530`
 
+### [2026-05-25 18:49 IST] - `refactor(forms): validate waitlist email submissions using Zod schemas`
+- **Component**: Next.js App Router & Launch Gateway
+- **Status**: Verified & Integrated into `main`
+- **Timestamp**: `2026-05-25T18:49:29+0530`
+
