@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-serif: 'Playfair Display', Georgia, Cambria, serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0A0A09] text-zinc-100 overflow-x-hidden;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(217, 119, 6, 0.08) 0, transparent 60%),
+      radial-gradient(at 100% 100%, rgba(120, 113, 108, 0.08) 0, transparent 60%);
+  }
+}
+
+@layer utilities {
+  /* Glass Panel CSS Engine */
+  .glass-panel {
+    @apply bg-neutral-950/40 backdrop-blur-xl border border-neutral-900/60 shadow-[0_8px_32px_0_rgba(0,0,0,0.5)];
+  }
+
+  /* Tesla White Active States */
+  .tesla-white-active {
+    @apply text-zinc-50 font-mono tracking-tighter hover:text-white selection:bg-amber-500;
+  }
+
+  /* Neon Interactive Highlights */
+  .neon-cyan {
+    @apply text-amber-400 border-amber-500/20 bg-amber-950/10;
+  }
+
+  .neon-orange {
+    @apply text-orange-400 border-orange-500/20 bg-orange-950/10;
+  }
+
+  /* Grid overlay scanning lines */
+  .scanlines {
+    background: linear-gradient(
+      rgba(15, 14, 12, 0) 50%, 
+      rgba(0, 0, 0, 0.3) 50%
+    );
+    background-size: 100% 4px;
+    z-index: 10;
+  }
+
+  /* Monospace glowing dropshadow */
+  .glow-cyan {
+    text-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
+  }
+
+  .glow-orange {
+    text-shadow: 0 0 10px rgba(251, 146, 60, 0.5);
+  }
+
+  /* Film Grain SVG Overlay */
+  .grain-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.02'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  /* Editorial Serif font class */
+  .font-editorial {
+    font-family: var(--font-serif), Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+}
