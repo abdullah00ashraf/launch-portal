@@ -4,6 +4,7 @@
 [![Framework: Next.js 14](https://img.shields.io/badge/Next.js-14.x-black.svg)](https://nextjs.org/)
 [![Styling: Tailwind CSS](https://img.shields.io/badge/CSS-Tailwind-teal.svg)](https://tailwindcss.com/)
 [![Animation: Framer Motion](https://img.shields.io/badge/Motion-Framer%20Motion-purple.svg)](https://www.framer.com/motion/)
+[![Hugging Face Hub](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-abdullahashraf122-yellow.svg)](https://huggingface.co/abdullahashraf122)
 
 **Axiyon Launch Portal** is an interactive, cyberpunk-inspired web application and deployment portal designed for high-density infrastructure telemetry, real-time node orchestration, and product reveals.
 
@@ -81,6 +82,23 @@ npm run start
 
 ---
 
-## 4. License
+## 4. 🤗 Underlying AI Models & Datasets on Hugging Face Hub
+
+The interactive visualizations, telemetry feeds, and simulations rendered across the Launch Portal are powered by in-house neural weights and spatiotemporal matrices hosted on Hugging Face:
+
+### 🧠 Production Neural Models
+* **[Sentinel-Mumbai PINN v1](https://huggingface.co/abdullahashraf122/sentinel-mumbai-pinn-v1)** (20.38M params): 6-Layer Bi-LSTM with Self-Attention and Hydraulic Lock loss constraint.
+* **[Sentinel-V7 Deep Flood LSTM](https://huggingface.co/abdullahashraf122/sentinel-v7-deep-flood-lstm)**: Sub-millisecond Keras 3 edge inference engine with fitted feature scaler.
+* **[Sentinel-Mumbai Hybrid PINN](https://huggingface.co/abdullahashraf122/sentinel-mumbai-hybrid-pinn-keras)**: Attention-augmented mixed-precision continuity PDE model.
+
+### 🌐 Curated Preprocessed Datasets
+* **[Alaska Arctic Hydrology Matrix](https://huggingface.co/datasets/abdullahashraf122/alaska-arctic-hydrology-matrix)** (1.97 MB Parquet): 50k rows × 7 features.
+* **[Aegis ManagerAI Agentic SFT Mixture](https://huggingface.co/datasets/abdullahashraf122/aegis-managerai-agentic-sft-mixture)** (1.68 MB JSONL): Augmented ChatML with `<think>` tags and JSON tool calls.
+* **[Sentinel-1 SAR 80m Grid](https://huggingface.co/datasets/abdullahashraf122/lucknow_hufp_datasets)** (2.88 GB NumPy): 83.9M spatial samples.
+* **[Mumbai Flood Intelligence 2005–2023](https://huggingface.co/datasets/abdullahashraf122/mumbai-salsette-flood-intelligence-2005-2023)** (27.84 GB Parquet): 633M spatiotemporal records across 19 annual partitions.
+
+---
+
+## 5. License
 
 This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
